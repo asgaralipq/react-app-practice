@@ -1,8 +1,10 @@
 import React from "react"
+import "../styles.css"
+
 
 function Header(){
     return(
-        <header>This is a Header</header>
+        <header className="navbar">This is the Header</header>
     )
 }
 
