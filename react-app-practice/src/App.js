@@ -1,16 +1,15 @@
 
 import React from "react";
-import Header from "./Components/header"
-import MainContent from "./Components/maincontent"
-import Footer from "./Components/footer"
-
+import JokeContent from "./Components/joke"
 
 function Component(){
   return(
       <div>
-          <Header />
-          <MainContent />
-          <Footer />
+          <JokeContent joke ={{punchline:"Your Mom"}} />
+          <JokeContent joke ={{question:"Knock Knock Again" ,punchline:"Your Mom Again"}} />
+          <JokeContent joke ={{question:"Knock Knock Again2" ,punchline:"Your Mom Again2"}} />
+          <JokeContent joke ={{question:"Knock Knock Again3" ,punchline:"Your Mom Again3"}} />
+          <JokeContent joke ={{question:"Knock Knock Again4" ,punchline:"Your Mom Again4"}} />
       </div>
   )
 }
